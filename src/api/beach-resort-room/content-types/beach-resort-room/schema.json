@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beach_resort_rooms",
+  "info": {
+    "singularName": "beach-resort-room",
+    "pluralName": "beach-resort-rooms",
+    "displayName": "Beach Resort Room",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "pluginOptions": {},
+      "type": "integer",
+      "required": true
+    },
+    "type": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "pluginOptions": {},
+      "type": "integer",
+      "required": true
+    },
+    "capacity": {
+      "pluginOptions": {},
+      "type": "integer",
+      "required": true
+    },
+    "breakfast": {
+      "pluginOptions": {},
+      "type": "boolean",
+      "required": true
+    },
+    "featured": {
+      "pluginOptions": {},
+      "type": "boolean",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {},
+      "type": "text"
+    },
+    "extras": {
+      "pluginOptions": {},
+      "type": "json",
+      "required": true
+    },
+    "images": {
+      "pluginOptions": {},
+      "type": "json",
+      "required": true
+    },
+    "pets": {
+      "pluginOptions": {},
+      "type": "boolean",
+      "required": true
+    },
+    "beach_resort_image": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::beach-resort-image.beach-resort-image"
+    }
+  }
+}

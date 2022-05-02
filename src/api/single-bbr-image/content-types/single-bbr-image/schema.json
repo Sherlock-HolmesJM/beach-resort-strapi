@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "single_bbr_images",
+  "info": {
+    "singularName": "single-bbr-image",
+    "pluralName": "single-bbr-images",
+    "displayName": "Single BBR Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

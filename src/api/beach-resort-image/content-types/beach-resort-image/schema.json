@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beach_resort_images",
+  "info": {
+    "singularName": "beach-resort-image",
+    "pluralName": "beach-resort-images",
+    "displayName": "Beach Resort Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
